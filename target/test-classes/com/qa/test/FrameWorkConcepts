@@ -1,0 +1,56 @@
+Rest Assured Framework
+
+**************
+
+Objectives
+
+1. Reusability
+2. Maintainability
+
+Step 1 : Analysis
+
+Predefined : TestNG,Junit, Cucumber, Robot etc.
+
+Customized/User Defined Framework
+
+	- Data Driven FrameWork, Hybrid Framework etc..
+	
+Hybrid Approach
+
+1. Rest Assured
+2. TestNG
+3. Maven
+4. Jenkins(CI/CD)
+5. Git Hub/GIT
+
+Implementation of Automation Framework
+----------------
+
+1. Implementation/Development
+2. Execution
+3. Maintainenence
+
+1.Implementation/Development
+
+create Maven Project
+Update Pom.xml
+Create  folder Structure
+
+
+List of methods to Execute test cases
+
+1. TestNG
+2. Pom.xml  - with in eclipse
+
+with out eclipse
+
+1.command prompt
+2.run.bat
+3.Jenkins
+
+
+pom.xml -pligins are required to execute
+
+1.maven complier plugin
+2. maven surefire plugin
+

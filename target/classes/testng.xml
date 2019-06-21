@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+ <suite name = "restAssuredSuite">
+ <test name = "restAssuredTest">
+ <classes>
+ <class name = "com.qa.employee.testcases.GetAllEmployees"></class>
+ <class name = "com.qa.employee.testcases.GetSingleEmployeeDetails"></class>
+ <class name = "com.qa.employee.testcases.PostEmployeeDetails"></class>
+ <class name = "com.qa.employee.testcases.PutEmployeeDetails"></class>
+  <class name = "com.qa.employee.testcases.DeleteEmployees"></class>
+ </classes>
+</test>
+</suite>

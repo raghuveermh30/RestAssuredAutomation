@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="29" passed="29">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Rest Assured automation" duration-ms="27274" started-at="2019-06-20T13:08:06Z" finished-at="2019-06-20T13:08:34Z">
+    <groups>
+    </groups>
+    <test name="Rest assures test" duration-ms="27274" started-at="2019-06-20T13:08:06Z" finished-at="2019-06-20T13:08:34Z">
+      <class name="com.qa.employee.testcases.GetAllEmployees">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.employee.testcases.GetAllEmployees@52a86356]" name="setUp" is-config="true" duration-ms="164" started-at="2019-06-20T18:38:06Z" finished-at="2019-06-20T18:38:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getEmployees()[pri:0, instance:com.qa.employee.testcases.GetAllEmployees@52a86356]" name="getEmployees" is-config="true" duration-ms="7191" started-at="2019-06-20T18:38:07Z" finished-at="2019-06-20T18:38:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployees -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.qa.employee.testcases.GetAllEmployees@52a86356]" name="checkContentType" duration-ms="7" started-at="2019-06-20T18:38:14Z" finished-at="2019-06-20T18:38:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.qa.employee.testcases.GetAllEmployees@52a86356]" name="checkResponseTime" duration-ms="2" started-at="2019-06-20T18:38:14Z" finished-at="2019-06-20T18:38:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkServerType()[pri:0, instance:com.qa.employee.testcases.GetAllEmployees@52a86356]" name="checkServerType" duration-ms="1" started-at="2019-06-20T18:38:14Z" finished-at="2019-06-20T18:38:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.qa.employee.testcases.GetAllEmployees@52a86356]" name="checkStatusCode" duration-ms="5" started-at="2019-06-20T18:38:14Z" finished-at="2019-06-20T18:38:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="getCheckResponseBody()[pri:0, instance:com.qa.employee.testcases.GetAllEmployees@52a86356]" name="getCheckResponseBody" duration-ms="57" started-at="2019-06-20T18:38:14Z" finished-at="2019-06-20T18:38:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckResponseBody -->
+        <test-method status="PASS" signature="getStatusLine()[pri:0, instance:com.qa.employee.testcases.GetAllEmployees@52a86356]" name="getStatusLine" duration-ms="2" started-at="2019-06-20T18:38:14Z" finished-at="2019-06-20T18:38:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusLine -->
+      </class> <!-- com.qa.employee.testcases.GetAllEmployees -->
+      <class name="com.qa.employee.testcases.PostEmployeeDetails">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.employee.testcases.PostEmployeeDetails@78c03f1f]" name="setUp" is-config="true" duration-ms="14" started-at="2019-06-20T18:38:18Z" finished-at="2019-06-20T18:38:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getEmployees()[pri:0, instance:com.qa.employee.testcases.PostEmployeeDetails@78c03f1f]" name="getEmployees" is-config="true" duration-ms="3735" started-at="2019-06-20T18:38:18Z" finished-at="2019-06-20T18:38:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployees -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.qa.employee.testcases.PostEmployeeDetails@78c03f1f]" name="checkContentType" duration-ms="5" started-at="2019-06-20T18:38:22Z" finished-at="2019-06-20T18:38:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkServerType()[pri:0, instance:com.qa.employee.testcases.PostEmployeeDetails@78c03f1f]" name="checkServerType" duration-ms="2" started-at="2019-06-20T18:38:22Z" finished-at="2019-06-20T18:38:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method status="PASS" signature="contentLength()[pri:0, instance:com.qa.employee.testcases.PostEmployeeDetails@78c03f1f]" name="contentLength" duration-ms="2" started-at="2019-06-20T18:38:22Z" finished-at="2019-06-20T18:38:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentLength -->
+        <test-method status="PASS" signature="getResponseBody()[pri:0, instance:com.qa.employee.testcases.PostEmployeeDetails@78c03f1f]" name="getResponseBody" duration-ms="5" started-at="2019-06-20T18:38:22Z" finished-at="2019-06-20T18:38:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseBody -->
+        <test-method status="PASS" signature="getStatusCode()[pri:0, instance:com.qa.employee.testcases.PostEmployeeDetails@78c03f1f]" name="getStatusCode" duration-ms="1" started-at="2019-06-20T18:38:22Z" finished-at="2019-06-20T18:38:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusCode -->
+        <test-method status="PASS" signature="getStatusLine()[pri:0, instance:com.qa.employee.testcases.PostEmployeeDetails@78c03f1f]" name="getStatusLine" duration-ms="2" started-at="2019-06-20T18:38:22Z" finished-at="2019-06-20T18:38:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusLine -->
+      </class> <!-- com.qa.employee.testcases.PostEmployeeDetails -->
+      <class name="com.qa.employee.testcases.PutEmployeeDetails">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.employee.testcases.PutEmployeeDetails@5ec0a365]" name="setUp" is-config="true" duration-ms="27" started-at="2019-06-20T18:38:22Z" finished-at="2019-06-20T18:38:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getEmployees()[pri:0, instance:com.qa.employee.testcases.PutEmployeeDetails@5ec0a365]" name="getEmployees" is-config="true" duration-ms="3728" started-at="2019-06-20T18:38:22Z" finished-at="2019-06-20T18:38:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployees -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.qa.employee.testcases.PutEmployeeDetails@5ec0a365]" name="checkContentType" duration-ms="1" started-at="2019-06-20T18:38:25Z" finished-at="2019-06-20T18:38:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkServerType()[pri:0, instance:com.qa.employee.testcases.PutEmployeeDetails@5ec0a365]" name="checkServerType" duration-ms="1" started-at="2019-06-20T18:38:25Z" finished-at="2019-06-20T18:38:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method status="PASS" signature="contentLength()[pri:0, instance:com.qa.employee.testcases.PutEmployeeDetails@5ec0a365]" name="contentLength" duration-ms="4" started-at="2019-06-20T18:38:25Z" finished-at="2019-06-20T18:38:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentLength -->
+        <test-method status="PASS" signature="getResponseBody()[pri:0, instance:com.qa.employee.testcases.PutEmployeeDetails@5ec0a365]" name="getResponseBody" duration-ms="3" started-at="2019-06-20T18:38:25Z" finished-at="2019-06-20T18:38:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseBody -->
+        <test-method status="PASS" signature="getStatusCode()[pri:0, instance:com.qa.employee.testcases.PutEmployeeDetails@5ec0a365]" name="getStatusCode" duration-ms="1" started-at="2019-06-20T18:38:25Z" finished-at="2019-06-20T18:38:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusCode -->
+        <test-method status="PASS" signature="getStatusLine()[pri:0, instance:com.qa.employee.testcases.PutEmployeeDetails@5ec0a365]" name="getStatusLine" duration-ms="2" started-at="2019-06-20T18:38:25Z" finished-at="2019-06-20T18:38:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusLine -->
+      </class> <!-- com.qa.employee.testcases.PutEmployeeDetails -->
+      <class name="com.qa.employee.testcases.GetSingleEmployeeDetails">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.employee.testcases.GetSingleEmployeeDetails@5ce81285]" name="setUp" is-config="true" duration-ms="17" started-at="2019-06-20T18:38:14Z" finished-at="2019-06-20T18:38:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getEmployees()[pri:0, instance:com.qa.employee.testcases.GetSingleEmployeeDetails@5ce81285]" name="getEmployees" is-config="true" duration-ms="3826" started-at="2019-06-20T18:38:14Z" finished-at="2019-06-20T18:38:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployees -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.qa.employee.testcases.GetSingleEmployeeDetails@5ce81285]" name="checkContentType" duration-ms="1" started-at="2019-06-20T18:38:18Z" finished-at="2019-06-20T18:38:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkServerType()[pri:0, instance:com.qa.employee.testcases.GetSingleEmployeeDetails@5ce81285]" name="checkServerType" duration-ms="3" started-at="2019-06-20T18:38:18Z" finished-at="2019-06-20T18:38:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method status="PASS" signature="contentLength()[pri:0, instance:com.qa.employee.testcases.GetSingleEmployeeDetails@5ce81285]" name="contentLength" duration-ms="4" started-at="2019-06-20T18:38:18Z" finished-at="2019-06-20T18:38:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentLength -->
+        <test-method status="PASS" signature="getResponseBody()[pri:0, instance:com.qa.employee.testcases.GetSingleEmployeeDetails@5ce81285]" name="getResponseBody" duration-ms="2" started-at="2019-06-20T18:38:18Z" finished-at="2019-06-20T18:38:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseBody -->
+        <test-method status="PASS" signature="getResponseTime()[pri:0, instance:com.qa.employee.testcases.GetSingleEmployeeDetails@5ce81285]" name="getResponseTime" duration-ms="3" started-at="2019-06-20T18:38:18Z" finished-at="2019-06-20T18:38:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseTime -->
+        <test-method status="PASS" signature="getStatusCode()[pri:0, instance:com.qa.employee.testcases.GetSingleEmployeeDetails@5ce81285]" name="getStatusCode" duration-ms="1" started-at="2019-06-20T18:38:18Z" finished-at="2019-06-20T18:38:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusCode -->
+        <test-method status="PASS" signature="getStatusLine()[pri:0, instance:com.qa.employee.testcases.GetSingleEmployeeDetails@5ce81285]" name="getStatusLine" duration-ms="2" started-at="2019-06-20T18:38:18Z" finished-at="2019-06-20T18:38:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusLine -->
+      </class> <!-- com.qa.employee.testcases.GetSingleEmployeeDetails -->
+      <class name="com.qa.employee.testcases.DeleteEmployees">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.employee.testcases.DeleteEmployees@4fe3c938]" name="setUp" is-config="true" duration-ms="18" started-at="2019-06-20T18:38:25Z" finished-at="2019-06-20T18:38:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getEmployees()[pri:0, instance:com.qa.employee.testcases.DeleteEmployees@4fe3c938]" name="getEmployees" is-config="true" duration-ms="8317" started-at="2019-06-20T18:38:25Z" finished-at="2019-06-20T18:38:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployees -->
+        <test-method status="PASS" signature="getResonseBody()[pri:0, instance:com.qa.employee.testcases.DeleteEmployees@4fe3c938]" name="getResonseBody" duration-ms="2" started-at="2019-06-20T18:38:34Z" finished-at="2019-06-20T18:38:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResonseBody -->
+        <test-method status="PASS" signature="getStatusCode()[pri:0, instance:com.qa.employee.testcases.DeleteEmployees@4fe3c938]" name="getStatusCode" duration-ms="1" started-at="2019-06-20T18:38:34Z" finished-at="2019-06-20T18:38:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusCode -->
+        <test-method status="PASS" signature="getStatusLine()[pri:0, instance:com.qa.employee.testcases.DeleteEmployees@4fe3c938]" name="getStatusLine" duration-ms="1" started-at="2019-06-20T18:38:34Z" finished-at="2019-06-20T18:38:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusLine -->
+        <test-method status="PASS" signature="getStatusTime()[pri:0, instance:com.qa.employee.testcases.DeleteEmployees@4fe3c938]" name="getStatusTime" duration-ms="2" started-at="2019-06-20T18:38:34Z" finished-at="2019-06-20T18:38:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusTime -->
+      </class> <!-- com.qa.employee.testcases.DeleteEmployees -->
+    </test> <!-- Rest assures test -->
+  </suite> <!-- Rest Assured automation -->
+</testng-results>

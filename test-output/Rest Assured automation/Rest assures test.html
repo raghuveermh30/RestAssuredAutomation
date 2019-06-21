@@ -1,0 +1,224 @@
+<html>
+<head>
+<title>TestNG:  Rest assures test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Rest assures test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>29/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jun 20 18:38:06 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>27 seconds (27274 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.employee.testcases.GetAllEmployees.checkContentType()'><b>checkContentType</b><br>Test class: com.qa.employee.testcases.GetAllEmployees</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.GetAllEmployees@52a86356</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.GetSingleEmployeeDetails.checkContentType()'><b>checkContentType</b><br>Test class: com.qa.employee.testcases.GetSingleEmployeeDetails</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.GetSingleEmployeeDetails@5ce81285</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.PostEmployeeDetails.checkContentType()'><b>checkContentType</b><br>Test class: com.qa.employee.testcases.PostEmployeeDetails</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.PostEmployeeDetails@78c03f1f</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.PutEmployeeDetails.checkContentType()'><b>checkContentType</b><br>Test class: com.qa.employee.testcases.PutEmployeeDetails</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.PutEmployeeDetails@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.GetAllEmployees.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.qa.employee.testcases.GetAllEmployees</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.GetAllEmployees@52a86356</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.GetAllEmployees.checkServerType()'><b>checkServerType</b><br>Test class: com.qa.employee.testcases.GetAllEmployees</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.GetAllEmployees@52a86356</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.GetSingleEmployeeDetails.checkServerType()'><b>checkServerType</b><br>Test class: com.qa.employee.testcases.GetSingleEmployeeDetails</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.GetSingleEmployeeDetails@5ce81285</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.PostEmployeeDetails.checkServerType()'><b>checkServerType</b><br>Test class: com.qa.employee.testcases.PostEmployeeDetails</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.PostEmployeeDetails@78c03f1f</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.PutEmployeeDetails.checkServerType()'><b>checkServerType</b><br>Test class: com.qa.employee.testcases.PutEmployeeDetails</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.PutEmployeeDetails@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.GetAllEmployees.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.qa.employee.testcases.GetAllEmployees</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.GetAllEmployees@52a86356</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.GetSingleEmployeeDetails.contentLength()'><b>contentLength</b><br>Test class: com.qa.employee.testcases.GetSingleEmployeeDetails</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.GetSingleEmployeeDetails@5ce81285</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.PostEmployeeDetails.contentLength()'><b>contentLength</b><br>Test class: com.qa.employee.testcases.PostEmployeeDetails</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.PostEmployeeDetails@78c03f1f</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.PutEmployeeDetails.contentLength()'><b>contentLength</b><br>Test class: com.qa.employee.testcases.PutEmployeeDetails</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.PutEmployeeDetails@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.GetAllEmployees.getCheckResponseBody()'><b>getCheckResponseBody</b><br>Test class: com.qa.employee.testcases.GetAllEmployees</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.GetAllEmployees@52a86356</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.DeleteEmployees.getResonseBody()'><b>getResonseBody</b><br>Test class: com.qa.employee.testcases.DeleteEmployees</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.DeleteEmployees@4fe3c938</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.GetSingleEmployeeDetails.getResponseBody()'><b>getResponseBody</b><br>Test class: com.qa.employee.testcases.GetSingleEmployeeDetails</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.GetSingleEmployeeDetails@5ce81285</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.PostEmployeeDetails.getResponseBody()'><b>getResponseBody</b><br>Test class: com.qa.employee.testcases.PostEmployeeDetails</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.PostEmployeeDetails@78c03f1f</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.PutEmployeeDetails.getResponseBody()'><b>getResponseBody</b><br>Test class: com.qa.employee.testcases.PutEmployeeDetails</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.PutEmployeeDetails@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.GetSingleEmployeeDetails.getResponseTime()'><b>getResponseTime</b><br>Test class: com.qa.employee.testcases.GetSingleEmployeeDetails</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.GetSingleEmployeeDetails@5ce81285</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.GetSingleEmployeeDetails.getStatusCode()'><b>getStatusCode</b><br>Test class: com.qa.employee.testcases.GetSingleEmployeeDetails</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.GetSingleEmployeeDetails@5ce81285</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.PostEmployeeDetails.getStatusCode()'><b>getStatusCode</b><br>Test class: com.qa.employee.testcases.PostEmployeeDetails</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.PostEmployeeDetails@78c03f1f</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.PutEmployeeDetails.getStatusCode()'><b>getStatusCode</b><br>Test class: com.qa.employee.testcases.PutEmployeeDetails</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.PutEmployeeDetails@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.DeleteEmployees.getStatusCode()'><b>getStatusCode</b><br>Test class: com.qa.employee.testcases.DeleteEmployees</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.DeleteEmployees@4fe3c938</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.GetAllEmployees.getStatusLine()'><b>getStatusLine</b><br>Test class: com.qa.employee.testcases.GetAllEmployees</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.GetAllEmployees@52a86356</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.GetSingleEmployeeDetails.getStatusLine()'><b>getStatusLine</b><br>Test class: com.qa.employee.testcases.GetSingleEmployeeDetails</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.GetSingleEmployeeDetails@5ce81285</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.PostEmployeeDetails.getStatusLine()'><b>getStatusLine</b><br>Test class: com.qa.employee.testcases.PostEmployeeDetails</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.PostEmployeeDetails@78c03f1f</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.PutEmployeeDetails.getStatusLine()'><b>getStatusLine</b><br>Test class: com.qa.employee.testcases.PutEmployeeDetails</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.PutEmployeeDetails@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.DeleteEmployees.getStatusLine()'><b>getStatusLine</b><br>Test class: com.qa.employee.testcases.DeleteEmployees</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.DeleteEmployees@4fe3c938</td></tr>
+<tr>
+<td title='com.qa.employee.testcases.DeleteEmployees.getStatusTime()'><b>getStatusTime</b><br>Test class: com.qa.employee.testcases.DeleteEmployees</td>
+<td></td>
+<td>0</td>
+<td>com.qa.employee.testcases.DeleteEmployees@4fe3c938</td></tr>
+</table><p>
+</body>
+</html>
